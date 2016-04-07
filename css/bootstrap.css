@@ -2655,6 +2655,9 @@ input[type="search"] {
   .input-group-lg input[type="month"] {
     line-height: 46px;
   }
+
+.input-search { width: 150px }
+
 }
 .form-group {
   margin-bottom: 15px;
@@ -2770,11 +2773,11 @@ select[multiple].input-sm {
   line-height: 1.5;
 }
 .input-lg {
-  height: 46px;
-  padding: 10px 16px;
-  font-size: 18px;
+  height: 45px;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 2px;
 }
 select.input-lg {
   height: 46px;
@@ -3855,7 +3858,7 @@ tbody.collapse.in {
 .input-group .form-control {
   position: relative;
   z-index: 2;
-  float: left;
+  float: center;
   width: 100%;
   margin-bottom: 0;
 }
@@ -3942,8 +3945,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .input-group-addon.input-lg {
   padding: 10px 16px;
-  font-size: 18px;
-  border-radius: 6px;
+  font-size: 16px;
+  border-radius: 2px;
 }
 .input-group-addon input[type="radio"],
 .input-group-addon input[type="checkbox"] {
@@ -6602,6 +6605,7 @@ button.close {
   margin-right: auto;
   margin-left: auto;
 }
+
 .pull-right {
   float: right !important;
 }
